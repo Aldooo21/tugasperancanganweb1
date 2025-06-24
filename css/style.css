@@ -1,0 +1,103 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+
+
+.carousel-img-small {
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .carousel-img-small {
+    height: 200px;
+  }
+}
+
+
+.card {
+  border-radius: 10px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+
+form .form-control {
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+form .form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.15rem rgba(13, 110, 253, 0.25);
+}
+
+
+.btn-primary {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  border-radius: 8px;
+}
+
+.btn-primary:hover {
+  background-color: #0b5ed7;
+  border-color: #0a58ca;
+}
+
+
+footer {
+  font-size: 0.95rem;
+}
+
+
+@media (max-width: 576px) {
+  h1, h2 {
+    font-size: 1.5rem;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+  }
+
+  .card-text {
+    font-size: 0.95rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+    padding: 0.4rem 1rem;
+  }
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.carousel-img-fixed {
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Responsif di HP */
+@media (max-width: 768px) {
+  .carousel-img-fixed {
+    height: 200px;
+  }
+}
